@@ -1,0 +1,11 @@
+import wx;
+def open_file():
+    print "File";
+
+def open_file_button(panel):
+    btn_open_file = wx.Button(panel, wx.ID_CLOSE, "Open File")
+    m_close.Bind(wx.EVT_BUTTON, self.open_file)
+    sizer.Add(m_close, 0, wx.ALL, 10);
+
+
+    
